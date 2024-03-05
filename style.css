@@ -1,0 +1,39 @@
+body {
+    background-image: url(assets/img/arkaplan.webp);
+    background-size: cover;
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 40px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: beige;
+    
+   
+  }
+  #number {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+ 
+ 
+ .btn-button{
+    width: 200px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 20px;
+    font-size: 16px;
+    color:black;
+    background-color: rgb(145, 165, 132);
+ }
+
